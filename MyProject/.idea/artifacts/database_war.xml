@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="database:war">
-    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/07-Alternatives/01-Database/target</output-path>
-    <root id="archive" name="sampleCDIAlternativesDatabase.war">
-      <element id="artifact" artifact-name="database:war exploded" />
-    </root>
-  </artifact>
-</component>

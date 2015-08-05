@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="injection-producer:war">
-    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/03-ProducerInjection/target</output-path>
-    <root id="archive" name="sampleCdiProducerJMS.war">
-      <element id="artifact" artifact-name="injection-producer:war exploded" />
-    </root>
-  </artifact>
-</component>

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="injection-enum:war">
-    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/03-Injection/03-EnumInjection/target</output-path>
-    <root id="archive" name="sampleCdiInjectPartIEnum.war">
-      <element id="artifact" artifact-name="injection-enum:war exploded" />
-    </root>
-  </artifact>
-</component>

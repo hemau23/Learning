@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="with-cdi:war">
-    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/02-JavaEE6/02-InjectWithCDI/target</output-path>
-    <root id="archive" name="sampleCdiInjectWithCDI.war">
-      <element id="artifact" artifact-name="with-cdi:war exploded" />
-    </root>
-  </artifact>
-</component>

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="com-byteslounge-cdi:war">
-    <output-path>$PROJECT_DIR$/../../configuring-cdi-with-tomcat-example/com-byteslounge-cdi/target</output-path>
-    <root id="archive" name="com-byteslounge-cdi-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="com-byteslounge-cdi:war exploded" />
-    </root>
-  </artifact>
-</component>

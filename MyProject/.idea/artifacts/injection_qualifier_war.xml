@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="injection-qualifier:war">
-    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/03-Injection/02-QualifierInjection/target</output-path>
-    <root id="archive" name="sampleCdiInjectPartIQualifier.war">
-      <element id="artifact" artifact-name="injection-qualifier:war exploded" />
-    </root>
-  </artifact>
-</component>

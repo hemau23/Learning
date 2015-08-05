@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="servlet25-jetty6:war">
-    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/05-Servlet2.5Jetty6/target</output-path>
-    <root id="archive" name="sampleCdiBootstrappingServlet25Jetty6.war">
-      <element id="artifact" artifact-name="servlet25-jetty6:war exploded" />
-    </root>
-  </artifact>
-</component>

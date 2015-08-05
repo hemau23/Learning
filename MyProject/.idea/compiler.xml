@@ -22,40 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="RESTfulExample" />
+        <module name="MyProject" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="alternatives-parent" target="1.5" />
-      <module name="bootstrapping-parent" target="1.5" />
-      <module name="cdi-di-tutorial" target="1.5" />
-      <module name="com-byteslounge-cdi" target="1.5" />
-      <module name="database" target="1.5" />
-      <module name="deltaspike-parent" target="1.5" />
-      <module name="ejb31-glassfish" target="1.5" />
-      <module name="injection-attribute" target="1.5" />
-      <module name="injection-constructor" target="1.5" />
-      <module name="injection-default" target="1.5" />
-      <module name="injection-enum" target="1.5" />
-      <module name="injection-producer" target="1.5" />
-      <module name="injection-qualifier" target="1.5" />
-      <module name="injection-setter" target="1.5" />
-      <module name="injection1-parent" target="1.5" />
-      <module name="injection2-parent" target="1.5" />
-      <module name="javaee6-parent" target="1.5" />
-      <module name="javase6" target="1.5" />
-      <module name="jms-listener" target="1.5" />
-      <module name="jms-produce-dispose" target="1.5" />
-      <module name="jms-producer" target="1.5" />
-      <module name="parent" target="1.5" />
-      <module name="producer-parent" target="1.5" />
-      <module name="RESTfulExample" target="1.6" />
-      <module name="servlet25-jetty6" target="1.5" />
-      <module name="servlet25-jetty7" target="1.5" />
-      <module name="servlet25-tomcat6" target="1.5" />
-      <module name="servlet30-glassfish" target="1.5" />
-      <module name="with-cdi" target="1.5" />
-      <module name="without-cdi" target="1.5" />
+      <module name="MyProject" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
