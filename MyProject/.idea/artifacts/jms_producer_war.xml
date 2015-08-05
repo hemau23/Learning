@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jms-producer:war">
+    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/04-ProducerJMS/target</output-path>
+    <root id="archive" name="sampleCdiProducerJMS.war">
+      <element id="artifact" artifact-name="jms-producer:war exploded" />
+    </root>
+  </artifact>
+</component>

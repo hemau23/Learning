@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jms-producer:war exploded">
+    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/04-ProducerJMS/target/sampleCdiProducerJMS</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jms-producer" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/04-ProducerJMS/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="jms-producer/web/Web" />
+    </root>
+  </artifact>
+</component>

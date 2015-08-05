@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/02-Servlet3.0GlassFish" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/04-Servlet2.5Tomcat6" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/05-Servlet2.5Jetty6" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/06-Servlet2.5Jetty7" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/02-JavaEE6/01-InjectWithoutCDI" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/02-JavaEE6/02-InjectWithCDI" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/03-Injection/01-DefaultInjection" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/03-Injection/02-QualifierInjection" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/03-Injection/03-EnumInjection" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/04-Injection/01-AttributeInjection" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/04-Injection/02-ConstructorInjection" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/04-Injection/03-SetterInjection" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/02-ProduceDisposeJMS" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/03-ProducerInjection" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/04-ProducerJMS" />
+    <file type="web" url="file://$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/07-Alternatives/01-Database" />
+    <file type="web" url="file://$PROJECT_DIR$/../../configuring-cdi-with-tomcat-example/com-byteslounge-cdi" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/01-EJB3.1GlassFish/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/02-Servlet3.0GlassFish/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/03-JavaSE6/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/04-Servlet2.5Tomcat6/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/05-Servlet2.5Jetty6/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/06-Servlet2.5Jetty7/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/02-JavaEE6/01-InjectWithoutCDI/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/02-JavaEE6/02-InjectWithCDI/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/02-JavaEE6/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/03-Injection/01-DefaultInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/03-Injection/02-QualifierInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/03-Injection/03-EnumInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/03-Injection/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/04-Injection/01-AttributeInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/04-Injection/02-ConstructorInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/04-Injection/03-SetterInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/04-Injection/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/01-JMSListener/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/02-ProduceDisposeJMS/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/03-ProducerInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/04-ProducerJMS/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/06-DeltaSpike/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/07-Alternatives/01-Database/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/07-Alternatives/pom.xml" />
+        <option value="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://jboss.org/schema/weld/beans" location="C:/" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

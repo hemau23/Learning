@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="injection-setter:war">
+    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/04-Injection/03-SetterInjection/target</output-path>
+    <root id="archive" name="sampleCdiInjectPartIISetter.war">
+      <element id="artifact" artifact-name="injection-setter:war exploded" />
+    </root>
+  </artifact>
+</component>

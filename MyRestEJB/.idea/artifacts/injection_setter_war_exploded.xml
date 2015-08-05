@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="injection-setter:war exploded">
+    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/04-Injection/03-SetterInjection/target/sampleCdiInjectPartIISetter</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="injection-setter" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/04-Injection/03-SetterInjection/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="injection-setter/web/Web" />
+    </root>
+  </artifact>
+</component>

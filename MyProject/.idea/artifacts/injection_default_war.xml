@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="injection-default:war">
+    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/03-Injection/01-DefaultInjection/target</output-path>
+    <root id="archive" name="sampleCdiInjectPartIDefault.war">
+      <element id="artifact" artifact-name="injection-default:war exploded" />
+    </root>
+  </artifact>
+</component>

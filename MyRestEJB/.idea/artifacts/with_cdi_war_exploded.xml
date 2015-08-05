@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="with-cdi:war exploded">
+    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/02-JavaEE6/02-InjectWithCDI/target/sampleCdiInjectWithCDI</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="with-cdi" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/02-JavaEE6/02-InjectWithCDI/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="with-cdi/web/Web" />
+    </root>
+  </artifact>
+</component>

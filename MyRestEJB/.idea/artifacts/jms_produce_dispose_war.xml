@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jms-produce-dispose:war">
+    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/05-Producers/02-ProduceDisposeJMS/target</output-path>
+    <root id="archive" name="sampleCdiProducerJMSDispose.war">
+      <element id="artifact" artifact-name="jms-produce-dispose:war exploded" />
+    </root>
+  </artifact>
+</component>

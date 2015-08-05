@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="servlet25-tomcat6:war exploded">
+    <output-path>$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/04-Servlet2.5Tomcat6/target/sampleCdiBootstrappingServlet25Tomcat6</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servlet25-tomcat6" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jboss.weld.servlet:weld-servlet:2.1.1.Final" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../agoncal-sample-cdi-master/agoncal-sample-cdi-master/01-Bootstrapping/04-Servlet2.5Tomcat6/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="servlet25-tomcat6/web/Web" />
+    </root>
+  </artifact>
+</component>
