@@ -1,0 +1,13 @@
+target
+.gradle
+nucleus.iml
+.idea
+**/build
+**/bin
+out
+gradle
+**/.project
+**/.classpath
+**/.settings/
+**/logs/
+/source/nucleus/*.project
