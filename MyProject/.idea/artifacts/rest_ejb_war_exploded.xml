@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="rest-ejb:war exploded">
+    <output-path>$PROJECT_DIR$/rest-ejb/target/rest-ejb</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="rest-ejb" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/rest-ejb/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="rest-ejb/web/Web" />
+    </root>
+  </artifact>
+</component>

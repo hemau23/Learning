@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-module:war">
+    <output-path>$PROJECT_DIR$/spring-module/target</output-path>
+    <root id="archive" name="spring-module.war">
+      <element id="artifact" artifact-name="spring-module:war exploded" />
+    </root>
+  </artifact>
+</component>
