@@ -12,6 +12,11 @@
         <module>rest-ejb</module>
     </modules>
 
+    <properties>
+        <spring.version>3.2.13.RELEASE</spring.version>
+    </properties>
+
+
     <dependencies>
 
         <dependency>
@@ -50,6 +55,13 @@
             <artifactId>cdi-api</artifactId>
             <version>1.2</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!--spring dependancy-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
         </dependency>
 
     </dependencies>

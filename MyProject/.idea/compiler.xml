@@ -24,12 +24,14 @@
         <processorPath useClasspath="true" />
         <module name="rest-ejb" />
         <module name="spring-module" />
+        <module name="spring3-mvc-maven-xml-hello-world" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="my-project" target="1.5" />
       <module name="rest-ejb" target="1.6" />
       <module name="spring-module" target="1.5" />
+      <module name="spring3-mvc-maven-xml-hello-world" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
