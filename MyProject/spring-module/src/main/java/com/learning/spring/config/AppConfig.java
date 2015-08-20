@@ -1,7 +1,9 @@
 package com.learning.spring.config;
 
+import com.learning.spring.cdi.CDIBeanPostProcessor;
 import com.learning.spring.service.HelloWord;
 import com.learning.spring.service.HelloWordService;
+import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.CommonAnnotationBeanPostProcessor;
 import org.springframework.context.annotation.ComponentScan;
@@ -25,5 +27,11 @@ public class AppConfig {
         return new HelloWordService();
     }
 
+    @Bean
+    BeanPostProcessor beanPostProcessor(){
+        CDIBeanPostProcessor cdiBeanPostProcessor = new CDIBeanPostProcessor();
+        cdiBeanPostProcessor.init();
+        return  cdiBeanPostProcessor;
+    }
 
 }

@@ -1,11 +1,12 @@
 package com.learning.cdiBridgeRest;
 
+import org.apache.log4j.Logger;
 import javax.enterprise.inject.spi.BeanManager;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
 public class BeanManagerBridge {
-
+    final static Logger logger = Logger.getLogger(BeanManagerBridge.class);
     private static BeanManager beanManager;
 
     public static BeanManager getBeanManager() {
@@ -17,8 +18,9 @@ public class BeanManagerBridge {
         try {
             InitialContext initialContext = new InitialContext();
             beanManager = (BeanManager) initialContext.lookup("java:comp/BeanManager");
+            logger.info("Bean Manager initialised successfully");
         } catch (NamingException e) {
-            System.out.println("[ERROR] Bean Manager not able to initialised");
+            logger.error("Bean Manager not able to initialised");
         }
     }
 }

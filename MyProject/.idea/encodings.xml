@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$/business-service/src/main/resources/META-INF" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rest-ejb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rest-ejb/src/main/java/com/learning/cdiBridgeRest/BeanManagerBridge.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/rest-ejb/src/main/resources/log4j.properties" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/spring-module/src/main/java/com/learning/spring/cdi/CDIBeanPostProcessor.java" charset="UTF-8" />
   </component>
 </project>

@@ -36,6 +36,10 @@ public class UserService {
 			@DefaultValue("999")@QueryParam("to") int to,
 			@DefaultValue("name") @QueryParam("orderBy") List<String> orderBy) throws NamingException {
 		BeanManager beanManager = BeanManagerBridge.getBeanManager();
+		Set<Bean<?>> beans = beanManager.getBeans(BusinessLogicService.class);
+		Bean<?> next = beans.iterator().next();
+		BusinessLogicService beans1 = (BusinessLogicService) beanManager.getReference(next, BusinessLogicService.class, beanManager.createCreationalContext(next));
+		beans1.setName("Kundan jaiswaL");
 		return Response
 				.status(200)
 				.entity(helloWord.sayHello() + " getUsers is called, from : " + from + ", to : " + to

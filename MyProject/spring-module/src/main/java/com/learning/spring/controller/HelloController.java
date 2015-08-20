@@ -2,9 +2,13 @@ package com.learning.spring.controller;
 
 import com.learning.business.service.BusinessLogic;
 import com.learning.business.service.BusinessLogicService;
+import com.learning.spring.cdi.CDIBeanPostProcessor;
 import com.learning.spring.cdi.CDIBridgeService;
+import com.learning.spring.cdi.CDIInject;
 import com.learning.spring.service.HelloWord;
+import com.learning.spring.service.MyLocalService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -28,6 +32,14 @@ public class HelloController {
 	@Inject
 	HelloWord helloWord;
 
+	@Inject
+	CDIBeanPostProcessor cdiBeanPostProcessor;
+	@Inject
+	MyLocalService myLocalService;
+
+	@CDIInject
+	BusinessLogicService businessLogicService;
+
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
 
@@ -43,10 +55,9 @@ public class HelloController {
 		model.setViewName("hello");
 		model.addObject("test", name);
 		model.addObject("msg", helloWord.sayHellow());
-
-		CDIBridgeService cdiBridgeService= new CDIBridgeService();
-		cdiBridgeService.getBeanReference();
-
+		businessLogicService.getName();
+		businessLogicService.run();
+		myLocalService.say();
 		return model;
 	}
 
