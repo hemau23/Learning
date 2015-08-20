@@ -1,5 +1,8 @@
 package com.learning.spring.controller;
 
+import com.learning.business.service.BusinessLogic;
+import com.learning.business.service.BusinessLogicService;
+import com.learning.spring.cdi.CDIBridgeService;
 import com.learning.spring.service.HelloWord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -10,19 +13,20 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
+import javax.enterprise.inject.spi.Bean;
 import javax.enterprise.inject.spi.BeanManager;
+import javax.enterprise.inject.spi.CDI;
 import javax.inject.Inject;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
+import java.util.Iterator;
+import java.util.Set;
 
 @Controller
 public class HelloController {
 
 	@Inject
 	HelloWord helloWord;
-
-
-
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
@@ -37,20 +41,13 @@ public class HelloController {
 
 		ModelAndView model = new ModelAndView();
 		model.setViewName("hello");
-		model.addObject("test",name);
+		model.addObject("test", name);
 		model.addObject("msg", helloWord.sayHellow());
 
-		InitialContext initialContext = null;
-		try {
-			initialContext = new InitialContext();
-			BeanManager beanManager = (BeanManager) initialContext.lookup("java:comp/BeanManager");
-			System.out.println("");
-		} catch (NamingException e) {
-			e.printStackTrace();
-		}
+		CDIBridgeService cdiBridgeService= new CDIBridgeService();
+		cdiBridgeService.getBeanReference();
 
 		return model;
-
 	}
 
 }

@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet type="web" name="Web">
+    <facet type="javaeeApplication" name="JavaEE">
       <configuration>
         <descriptors>
-          <deploymentDescriptor name="jboss-deployment-structure.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/jboss-deployment-structure.xml" />
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
+          <deploymentDescriptor name="application.xml" url="file://$MODULE_DIR$/target/application.xml" />
         </descriptors>
-        <webroots>
-          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
-        </webroots>
       </configuration>
     </facet>
   </component>
@@ -19,12 +15,11 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="business-service" scope="PROVIDED" />
-    <orderEntry type="module" module-name="rest-ejb" scope="PROVIDED" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.8.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.resteasy:resteasy-jaxrs:2.2.1.GA" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.resteasy:jaxrs-api:2.2.1.GA" level="project" />

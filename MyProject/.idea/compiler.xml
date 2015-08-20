@@ -22,12 +22,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="business-service" />
         <module name="rest-ejb" />
         <module name="spring-module" />
         <module name="spring3-mvc-maven-xml-hello-world" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="business-service" target="1.5" />
+      <module name="ear" target="1.5" />
       <module name="my-project" target="1.5" />
       <module name="rest-ejb" target="1.6" />
       <module name="spring-module" target="1.5" />

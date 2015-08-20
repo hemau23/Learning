@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.learning.ejb</groupId>
     <artifactId>rest-ejb</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>rest-ejb module</name>
 
@@ -20,6 +20,14 @@
             <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
         </repository>
     </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.learning.business</groupId>
+            <artifactId>business-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <finalName>rest-ejb</finalName>

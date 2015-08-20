@@ -25,10 +25,5 @@ public class AppConfig {
         return new HelloWordService();
     }
 
-    @Bean
-    public JndiObjectFactoryBean myBean() {
-        JndiObjectFactoryBean factory = new JndiObjectFactoryBean();
-        factory.setJndiName("java:global/rest-ejb/HelloWordService");
-        return factory;
-    }
+
 }

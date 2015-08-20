@@ -42,6 +42,8 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/business-service" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/ear" />
     <file type="web" url="file://$USER_HOME$/Downloads/spring3-mvc-maven-xml-hello-world/spring3-mvc-maven-xml-hello-world" />
     <file type="web" url="file://$PROJECT_DIR$/rest-ejb" />
     <file type="web" url="file://$PROJECT_DIR$/spring-module" />

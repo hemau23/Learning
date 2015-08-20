@@ -1,10 +1,13 @@
 package com.learning.rest;
 
 
+import com.learning.business.service.BusinessLogicService;
+import com.learning.cdiBridgeRest.BeanManagerBridge;
 import com.learning.ejb.service.HelloWord;
 
 import java.io.InterruptedIOException;
 import java.util.List;
+import java.util.Set;
 
 import javax.enterprise.inject.spi.Bean;
 import javax.enterprise.inject.spi.BeanManager;
@@ -24,22 +27,15 @@ public class UserService {
 	@Inject
 	HelloWord helloWord;
 
+	@Inject
+	BusinessLogicService businessLogicService;
+
 	@GET
 	@Path("/query")
-	public Response getUsers(@DefaultValue("1000") @QueryParam("from") int from,
+	public Response getUsers(@DefaultValue("1000") @QueryParam("from") String from,
 			@DefaultValue("999")@QueryParam("to") int to,
 			@DefaultValue("name") @QueryParam("orderBy") List<String> orderBy) throws NamingException {
-		try {
-			InitialContext initialContext = new InitialContext();
-			BeanManager beanManager = (BeanManager) initialContext.lookup("java:comp/BeanManager");
-
-			Bean<HelloWord> bean = (Bean<HelloWord>) beanManager.resolve(beanManager.getBeans(HelloWord.class));
-			HelloWord testBean1 = (HelloWord) beanManager.getReference(bean, bean.getBeanClass(), beanManager.createCreationalContext(bean));
-			System.out.println("");
-
-		} catch (NamingException e) {
-			e.printStackTrace();
-		}
+		BeanManager beanManager = BeanManagerBridge.getBeanManager();
 		return Response
 				.status(200)
 				.entity(helloWord.sayHello() + " getUsers is called, from : " + from + ", to : " + to

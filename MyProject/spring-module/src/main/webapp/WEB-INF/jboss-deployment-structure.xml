@@ -1,7 +1,11 @@
 <jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.0">
 	<deployment>
 		<dependencies>
+			<!--<module name="deployment.ear-1.0-SNAPSHOT.ear.rest-ejb.war" export="true"/>
+			<module name="deployment.ear-1.0-SNAPSHOT.ear.business-service-1.0-SNAPSHOT.jar" export="true"/>-->
+
 			<module name="deployment.rest-ejb.war" export="true"/>
+			<module name="deployment.business-service-1.0-SNAPSHOT.jar" export="true"/>
 		</dependencies>
 	</deployment>
 </jboss-deployment-structure>
